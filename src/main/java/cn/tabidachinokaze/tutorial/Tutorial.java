@@ -1,5 +1,6 @@
 package cn.tabidachinokaze.tutorial;
 
+import cn.tabidachinokaze.tutorial.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,6 +20,9 @@ public class Tutorial {
     public Tutorial() {
         // Register the setup method for modloading
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(eventBus);
+
         eventBus.addListener(this::setup);
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
