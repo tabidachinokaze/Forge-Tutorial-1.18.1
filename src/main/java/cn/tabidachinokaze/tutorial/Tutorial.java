@@ -1,4 +1,4 @@
-package com.example.examplemod;
+package cn.tabidachinokaze.tutorial;
 
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
