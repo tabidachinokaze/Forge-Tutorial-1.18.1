@@ -1,4 +1,5 @@
 {
   "item.tutorial.titanium_ingot": "钛锭",
-  "item.tutorial.titanium_nugget": "钛粒"
+  "item.tutorial.titanium_nugget": "钛粒",
+  "block.tutorial.titanium_block": "钛块"
 }
