@@ -1,6 +1,8 @@
 {
   "item.tutorial.titanium_ingot": "Titanium Ingot",
   "item.tutorial.titanium_nugget": "Titanium Nugget",
+  "item.tutorial.raw_titanium": "Raw Titanium",
   "block.tutorial.titanium_block": "Titanium Block",
-  "block.tutorial.titanium_ore": "Titanium Ore"
+  "block.tutorial.titanium_ore": "Titanium Ore",
+  "itemGroup.tutorialTab": "Tutorial Tab"
 }

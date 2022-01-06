@@ -1,6 +1,8 @@
 {
   "item.tutorial.titanium_ingot": "钛锭",
   "item.tutorial.titanium_nugget": "钛粒",
+  "item.tutorial.raw_titanium": "粗钛",
   "block.tutorial.titanium_block": "钛块",
-  "block.tutorial.titanium_ore": "钛矿"
+  "block.tutorial.titanium_ore": "钛矿",
+  "itemGroup.tutorialTab": "教程物品栏"
 }
