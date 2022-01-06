@@ -19,9 +19,9 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, Tutorial.MOD_ID);
     public static final RegistryObject<Block> TITANIUM_BLOCK =
-            registerBlocks("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(12f)), ModCreativeModeTab.TUTORIAL_TAB);
+            registerBlocks("titanium_block", () -> new Block(BlockBehaviour.Properties.of(Material.METAL).strength(6f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
     public static final RegistryObject<Block> TITANIUM_ORE =
-            registerBlocks("titanium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(1.5f)), ModCreativeModeTab.TUTORIAL_TAB);
+            registerBlocks("titanium_ore", () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(2f).requiresCorrectToolForDrops()), ModCreativeModeTab.TUTORIAL_TAB);
 
     private static <T extends Block> RegistryObject<T> registerBlocks(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
